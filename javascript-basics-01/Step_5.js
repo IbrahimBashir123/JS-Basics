@@ -5,4 +5,4 @@
 
     window.prompt("Do u want to make a Multiplication")
     alert("first_number: " + numOne + "\nsecond_number: " + numTwo + "\nproduct: " + product);
-   };
+   } ;
