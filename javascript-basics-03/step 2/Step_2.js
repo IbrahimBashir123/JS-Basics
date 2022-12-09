@@ -22,4 +22,4 @@ button.forEach((showandhide) => {
       texte.style = `display:block`;
      }
   });
-});
+ });
