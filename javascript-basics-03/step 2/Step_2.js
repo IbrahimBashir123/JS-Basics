@@ -20,6 +20,6 @@ button.forEach((showandhide) => {
       texte.style = `display: none`;
     } else {
       texte.style = `display:block`;
-    }
+     }
   });
 });
