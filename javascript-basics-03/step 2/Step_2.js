@@ -19,7 +19,7 @@ button.forEach((showandhide) => {
     if (showandhide.target.id == `hide`) {
       texte.style = `display: none`;
     } else {
-      texte.style = `display:block`;
+      texte.style = `display:block` ;
      }
   });
  });
