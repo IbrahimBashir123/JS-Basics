@@ -1,7 +1,9 @@
-var div = document.querySelector("div#div");
-var input = document.querySelector("input#name");
+const div = document.createElement("div");
+document.querySelector("body").appendChild(div).setAttribute("id", "other_div");
+const otherDiv = document.querySelector("#other_div");
 
-input.addEventListener("change", () => {
-  console.log(input.value);
-  div.innerHTML = "I'm " + input.value;
+const nameInput = document.querySelector("#name");
+
+nameInput.addEventListener("keyup", (e) => {
+  otherDiv.innerText = nameInput.value;
 });
