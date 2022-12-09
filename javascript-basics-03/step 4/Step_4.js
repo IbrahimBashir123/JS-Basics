@@ -7,4 +7,4 @@ buton.onclick = function () {
     passwordInput.style.border = "3px solid red";
     confirmationInput.style.border = "3px solid red";
   }
-};
+ };
