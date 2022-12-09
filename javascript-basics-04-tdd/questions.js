@@ -17,7 +17,7 @@ const toCapitals = (text) => {
   return text.toUpperCase();
 };
 const toLowerCase = (text) => {
-  return text.toLowerCase();
+   return text.toLowerCase();
 };
 const removeSpaces = (text) => {
   return text.trim();
